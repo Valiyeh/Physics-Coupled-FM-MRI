@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pcfm"
+version = "1.0.0"
+description = "Physics-coupled adaptation of a frozen RadioDINO model for accelerated MRI reconstruction."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "torch>=2.1",
+  "numpy",
+  "PyYAML",
+  "scikit-image",
+]
+
+[tool.setuptools.packages.find]
+include = ["pcfm*"]

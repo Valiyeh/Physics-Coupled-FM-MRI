@@ -1,0 +1,9 @@
+# Every directory and weight file used by this repository.
+# Relative entries are resolved from the repository root.
+# Edit this file when the data or the RadioDINO checkpoint lives somewhere else.
+
+fastmri_root: /path/to/fastMRI
+skmtea_root: /path/to/SKM-TEA
+radiodino_weights: /path/to/RadioDino-s16/model.safetensors
+output_dir: outputs
+cache_dir: outputs/cache
